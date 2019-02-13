@@ -27,7 +27,6 @@ class Footer extends React.Component {
 				</div>
 				<div className="emailcontact">
 					<span>nabua.kristofferson@gmail.com</span>
-					<span>+639171728420</span>
 				</div>
 			</footer>
 		)
