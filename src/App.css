@@ -7,13 +7,14 @@
 	animation: App-logo-spin infinite 20s linear;
 }
 
+.img-container {
+	height: 60vh;
+	display: flex;
+	justify-content: flex-start;
+}
+
 .img-background {
-	width: 100vw;
-	height: auto;
-	position: absolute;
-	top: 100px;
-	opacity: 0.4;
-	z-index: -1;
+	height: 60vh;
 }
 
 .App-header {
@@ -28,10 +29,10 @@
 }
 
 .divider {
-	width: 90%;
+	width: 95%;
 	height: 2px;
 	display: block;
-	background: #E5E5E5;
+	background: #e5e5e5;
 	margin: 0 auto;
 }
 
@@ -41,6 +42,15 @@
 	}
 	to {
 		transform: rotate(360deg);
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.img-container {
+		height: 40vh;
+	}
+	.img-background {
+		height: 40vh;
 	}
 }
 

@@ -18,11 +18,13 @@ class App extends Component {
 					/>
 				</Helmet>
 				<Header />
-				<img
-					className="img-background"
-					alt="me"
-					src={require('./assets/background-picture.jpg')}
-				/>
+				<div className="img-container">
+					<img
+						className="img-background"
+						alt="me"
+						src={require('./assets/kc.png')}
+					/>
+				</div>
 				<Skills />
 				<span className="divider" />
 				<Footer />

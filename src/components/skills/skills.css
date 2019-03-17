@@ -2,13 +2,11 @@
 	width: 100vw;
 	height: auto;
 	box-sizing: border-box;
-	position: absolute;
-	bottom: 100px;
 	padding: 20px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	background: rgba(10, 10, 10, 0.2);
+	background: white;
 }
 
 .skill-icon {
