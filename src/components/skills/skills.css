@@ -77,5 +77,6 @@
     }
     .skill-icon {
         justify-self: center;
+        height: 40px;
     }
 }
