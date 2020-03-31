@@ -1,0 +1,11 @@
+.section-title {
+    font-family: 'Roboto Mono';
+    padding: 0px 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 550px) {
+    .section-title {
+        font-size: 15px;
+    }
+}

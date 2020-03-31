@@ -1,17 +1,8 @@
 import React from 'react';
+import './title.css';
 
 const SectionTitle = props => {
-    return (
-        <h3
-            style={{
-                fontFamily: 'Roboto Mono',
-                padding: '0px 20px',
-                textAlign: 'center'
-            }}
-        >
-            {props.title}
-        </h3>
-    );
+    return <h3 className="section-title">{props.title}</h3>;
 };
 
 export default SectionTitle;
