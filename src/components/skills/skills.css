@@ -7,12 +7,24 @@
 	justify-content: flex-start;
 	align-items: center;
 	background: white;
+	width: 100%;
+	padding: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	position: initial;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 20px;
+	grid-template-rows: auto;
+	grid-row-gap: 20px;
+	background: white;
 }
 
 .skill-icon {
 	width: auto;
 	height: 40px;
 	margin-right: 20px;
+	justify-self: center;
 }
 
 .logo-spin {

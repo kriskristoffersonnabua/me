@@ -1,62 +1,72 @@
 .App {
-	width: 100vw;
-	height: auto;
+    width: 100vw;
+    height: auto;
 }
 
 .Logo-spin {
-	animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
 }
 
 .img-container {
-	height: 60vh;
-	display: flex;
-	justify-content: flex-start;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #ccffff, #ffcccc);
 }
 
 .img-background {
-	height: 60vh;
+    height: 60vh;
 }
 
 .App-header {
-	background-color: #282c34;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
-	color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .divider {
-	width: 95%;
-	height: 2px;
-	display: block;
-	background: #e5e5e5;
-	margin: 0 auto;
+    width: 95%;
+    height: 2px;
+    display: block;
+    background: #e5e5e5;
+    margin: 0 auto;
 }
 
 @keyframes App-logo-spin {
-	from {
-		transform: rotate(0deg);
-	}
-	to {
-		transform: rotate(360deg);
-	}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
 
-@media only screen and (max-width: 400px) {
-	.img-container {
-		height: 40vh;
-	}
-	.img-background {
-		height: 40vh;
-	}
+@media only screen and (min-width: 200px) and (max-width: 399px) {
+    .img-container {
+        height: 30vh;
+    }
+    .img-background {
+        height: 30vh;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+    .img-container {
+        height: 40vh;
+    }
+    .img-background {
+        height: 40vh;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-	.img-background {
-		display: block;
-		position: initial;
-	}
+    .img-background {
+        display: block;
+        position: initial;
+    }
 }
