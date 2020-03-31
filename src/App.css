@@ -1,10 +1,11 @@
-.App {
-    width: 100vw;
-    height: auto;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.Logo-spin {
-    animation: App-logo-spin infinite 20s linear;
+.App {
+    width: 100%;
+    height: auto;
 }
 
 .img-container {

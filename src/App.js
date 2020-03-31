@@ -53,6 +53,18 @@ class App extends Component {
                     }}
                 >
                     <SectionTitle title="I have experience developing ..." />
+                    <div
+                        style={{
+                            width: '100%',
+                            height: 'auto',
+                            margin: '20px 0px',
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'center',
+                            alignItems: 'center',
+                            backgroundColor: 'black'
+                        }}
+                    ></div>
                 </div>
                 <span className="divider" />
                 <div

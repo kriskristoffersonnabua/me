@@ -1,5 +1,5 @@
 .skills-container {
-    width: 100vw;
+    width: 100%;
     height: auto;
     box-sizing: border-box;
     padding: 20px;
@@ -22,17 +22,16 @@
 
 .skill-icon {
     width: auto;
-    height: 40px;
-    margin-right: 20px;
+    height: 60px;
     justify-self: center;
 }
 
 .logo-spin {
-    /* animation: skill-logo-spin infinite 20s linear; */
+    animation: skill-logo-spin infinite 20s linear;
 }
 
 .logo-wiggle {
-    /* animation: skill-logo-wiggle infinite 10s linear; */
+    animation: skill-logo-wiggle infinite 10s linear;
 }
 
 @keyframes skill-logo-spin {

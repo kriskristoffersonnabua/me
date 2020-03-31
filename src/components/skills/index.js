@@ -6,7 +6,7 @@ class Skills extends React.Component {
         return (
             <div class="skills-container">
                 <img
-                    className="skill-icon logo-spin"
+                    className="skill-icon logo-wiggle"
                     alt="vim"
                     src={require('../../assets/skills/vim.png')}
                 />
@@ -16,7 +16,7 @@ class Skills extends React.Component {
                     src={require('../../assets/skills/npm.png')}
                 />
                 <img
-                    className="skill-icon logo-spin"
+                    className="skill-icon logo-wiggle"
                     alt="js"
                     src={require('../../assets/skills/js.png')}
                 />
@@ -26,7 +26,7 @@ class Skills extends React.Component {
                     src={require('../../assets/skills/html.png')}
                 />
                 <img
-                    className="skill-icon logo-spin"
+                    className="skill-icon logo-wiggle"
                     alt="react"
                     src={require('../../assets/skills/react.png')}
                 />
