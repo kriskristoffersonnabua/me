@@ -1,1 +1,1 @@
-this project was bootstrapped with <http://github.com/sw-yx/create-react-app-parcel>
+This is my online portfolio :D
